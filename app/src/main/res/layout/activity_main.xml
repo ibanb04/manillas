@@ -17,6 +17,17 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/txtMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo_moneda" />
+
+    <Spinner
+        android:id="@+id/spnMoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
         android:id="@+id/txtMaterial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,10 +60,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/cantidad"
+        android:inputType="number" />
+
     <Button
         android:id="@+id/btnComprar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="comprar"
         android:text="@string/comprar" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp" />
 
 </LinearLayout>

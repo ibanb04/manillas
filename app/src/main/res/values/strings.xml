@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Manillas</string>
-    <string name="material">Material</string>
-    <string name="dije">Dije</string>
-    <string name="tipo">Tipo</string>
+    <string name="material">Elige el material</string>
+    <string name="dije">Elige el dije</string>
+    <string name="tipo">Elige el tipo</string>
     <string name="comprar">Comprar</string>
+    <string name="cantidad">Ingrese la cantidad</string>
+    <string name="tipo_moneda">Seleccione el tipo de moneda</string>
 </resources>

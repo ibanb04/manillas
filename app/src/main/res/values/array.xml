@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<resources>
+    <string name="dolar">dolar</string>
+    <string name="peso">peso</string>
+
+    <string name="cuero">cuero</string>
+    <string name="cuerda">cuerda</string>
+
+    <string name="martillo">martillo</string>
+    <string name="ancla">ancla</string>
+
+    <string name="oro">oro</string>
+    <string name="oro_rosa">oro rosa</string>
+    <string name="plata">plata</string>
+    <string name="niquel">niquel</string>
+
+    <string-array name="arrayMonedas">
+        <item>@string/dolar</item>
+        <item>@string/peso</item>
+    </string-array>
+    <string-array name="arrayMateriales">
+        <item>@string/cuero</item>
+        <item>@string/cuerda</item>
+    </string-array>
+    <string-array name="arrayDijes">
+        <item>@string/martillo</item>
+        <item>@string/ancla</item>
+    </string-array>
+    <string-array name="arrayTipo">
+        <item>@string/oro</item>
+        <item>@string/oro_rosa</item>
+        <item>@string/plata</item>
+        <item>@string/niquel</item>
+    </string-array>
+</resources>

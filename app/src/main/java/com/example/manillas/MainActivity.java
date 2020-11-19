@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     public void comprar(View v){
         int cant, materiales, dijes, tipos, precio, res = 0, op;
 
+        if(validar()){
         cant = Integer.parseInt(cantidad.getText().toString());
 
         materiales = material.getSelectedItemPosition();
@@ -115,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             res = precio*cant;
         }
 
-
+        }
         resultado.setText("Valor: "+String.valueOf(res));
     }
 
@@ -135,5 +136,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public boolean validar(){
 
+        if (cantidad.getText().toString().isEmpty()){
+            cantidad.setError(getString(R.string.error_cantidad));
+            cantidad.requestFocus();
+            return false;
+        }
+        return true;
+    }
 }

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Manillas</string>
+    <string name="material">Material</string>
+    <string name="dije">Dije</string>
+    <string name="tipo">Tipo</string>
+    <string name="comprar">Comprar</string>
 </resources>

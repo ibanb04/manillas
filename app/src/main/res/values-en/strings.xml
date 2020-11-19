@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Manillas</string>
+    <string name="ancla">anchor</string>
+    <string name="cantidad">enter the amount</string>
+    <string name="comprar">Buy</string>
+    <string name="cuerda">rope</string>
+    <string name="cuero">leather</string>
+    <string name="dije">choose the charm</string>
+    <string name="dolar">dolar</string>
+    <string name="error_cantidad">enter the amount</string>
+    <string name="martillo">hammer</string>
+    <string name="material">choose the material</string>
+    <string name="niquel">nickel</string>
+    <string name="oro">gold</string>
+    <string name="oro_rosa">pink gold</string>
+    <string name="peso">peso (COP)</string>
+    <string name="plata">silver</string>
+    <string name="tipo">choose a type</string>
+    <string name="tipo_moneda">choose a type of currency</string>
 </resources>

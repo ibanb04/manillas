@@ -137,9 +137,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean validar(){
-
+        int cant;
         if (cantidad.getText().toString().isEmpty()){
             cantidad.setError(getString(R.string.error_cantidad));
+            cantidad.requestFocus();
+            return false;
+        }
+        
+        cant = Integer.parseInt(cantidad.getText().toString());
+
+        if (cant <= 0 ){
+            cantidad.setError(getString(R.string.error_signo));
             cantidad.requestFocus();
             return false;
         }

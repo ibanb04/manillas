@@ -7,4 +7,5 @@
     <string name="cantidad">Ingrese la cantidad</string>
     <string name="tipo_moneda">Seleccione el tipo de moneda</string>
     <string name="error_cantidad">Escriba la canctidad</string>
+    <string name="error_signo">Escriba una cantidad valida</string>
 </resources>

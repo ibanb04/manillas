@@ -18,4 +18,5 @@
     <string name="plata">silver</string>
     <string name="tipo">choose a type</string>
     <string name="tipo_moneda">choose a type of currency</string>
+    <string name="error_signo">enter a valid amount</string>
 </resources>
